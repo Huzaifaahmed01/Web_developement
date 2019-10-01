@@ -74,7 +74,7 @@ p {
   width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .collg1, .collg2, .collg3, .collg4, .collg5, .collg6, .collg7, .collg8, .collg9, .collg10, .collg11, .collg12 {
     float: left;
   }
@@ -116,7 +116,7 @@ p {
   }
 }
 
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .colmd1, .colmd2, .colmd3, .colmd4, .colmd5, .colmd6, .colmd7, .colmd8, .colmd9, .colmd10, .colmd11, .colmd12 {
     float: left;
   }
