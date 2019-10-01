@@ -1,7 +1,159 @@
-p {
-  color: blue;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 24px;
+  box-sizing: border-box;
 }
-	/* #999999 backgrouond color for paragraph*/
-  /* #D99296 background color for chicken box*/
-  /* #C82E3D background color for beef box*/
-  /* #C82E3D background color for sushi box*/
+
+section > div {
+  background-color: #999999;
+  border: 1px solid black;
+  padding: 2px;
+}
+h1{
+  font-size: 175%;
+  text-align: center;
+}
+
+section {
+  font-size: 125%;
+  width: 90%;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  clear: right;
+}
+
+#chicken h3 {
+  position: relative;
+  top: -3px;
+  left: 3px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  width: 43%;
+  text-align: center;
+  float: right;
+  background-color: #D99296;
+}
+
+#beef h3{
+  position: relative;
+  top: -3px;
+  left: 3px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  width: 43%;
+  text-align: center;
+  color: white;
+  float: right;
+  background-color: #C82E3D;
+}
+
+#sushi h3{
+  position: relative;
+  top: -3px;
+  left: 3px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  width: 43%;
+  text-align: center;
+  float: right;
+  background-color: #E5D78F;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .collg1, .collg2, .collg3, .collg4, .collg5, .collg6, .collg7, .collg8, .collg9, .collg10, .collg11, .collg12 {
+    float: left;
+  }
+  .collg1 {
+    width: 8.33%;
+  }
+  .collg2 {
+    width: 16.66%;
+  }
+  .collg3 {
+    width: 25%;
+  }
+  .collg4 {
+    width: 33.33%;
+  }
+  .collg5 {
+    width: 41.66%;
+  }
+  .collg6 {
+    width: 50%;
+  }
+  .collg7 {
+    width: 58.33%;
+  }
+  .collg8 {
+    width: 66.66%;
+  }
+  .collg9 {
+    width: 74.99%;
+  }
+  .collg10 {
+    width: 83.33%;
+  }
+  .collg11 {
+    width: 91.66%;
+  }
+  .collg12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+  .colmd1, .colmd2, .colmd3, .colmd4, .colmd5, .colmd6, .colmd7, .colmd8, .colmd9, .colmd10, .colmd11, .colmd12 {
+    float: left;
+  }
+  .colmd1 {
+    width: 8.33%;
+  }
+  .colmd2 {
+    width: 16.66%;
+  }
+  .colmd3 {
+    width: 25%;
+  }
+  .colmd4 {
+    width: 33.33%;
+  }
+  .colmd5 {
+    width: 41.66%;
+  }
+  .colmd6 {
+    width: 50%;
+  }
+  .colmd7 {
+    width: 58.33%;
+  }
+  .colmd8 {
+    width: 66.66%;
+  }
+  .colmd9 {
+    width: 74.99%;
+  }
+  .colmd10 {
+    width: 83.33%;
+  }
+  .colmd11 {
+    width: 91.66%;
+  }
+  .colmd12 {
+    width: 100%;
+  }
+}
